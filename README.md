@@ -9,7 +9,7 @@ This project demonstrates how to perform CRUD (Create, Read, Update, Delete) ope
 CRUD operations are fundamental when working with databases. This project utilizes **MongoDB**, a NoSQL database, and **Mongoose**, an Object Data Modeling (ODM) library for MongoDB, to perform CRUD operations seamlessly. 
 
 ### **Create**
-Creating new data involves inserting a document into a MongoDB collection. In this project, users can be added via a **POST** request to `/users`, providing details such as `name`, `email`, and `age`. The request body is validated before storing the data in the database.
+Creating new data involves inserting a document into a MongoDB collection. In this project, users can be added via a **POST** request to `/users`, providing details such as `firstname`, `lastname`,  `age`,`email`,`isAdmin`. The request body is validated before storing the data in the database.
 
 ### **Read**
 Retrieving data is crucial for any application. This project includes routes to fetch all users (`GET /users`) and a specific user by ID (`GET /users/:id`). The responses return JSON objects containing the requested user details.
